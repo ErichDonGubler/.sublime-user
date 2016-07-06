@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[std::${2:cerr} << "${1:var}: " << $1 << std::endl;]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>scerrvar</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.c, source.objc, source.c++, source.objc++</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>cerr for var (uses "std::")</description>
+</snippet>

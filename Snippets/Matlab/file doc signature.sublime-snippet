@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[%{
+	$TM_FILENAME
+	$1
+	Authors: ${3:$TM_FULLNAME}, ${4:$TM_EMAIL}
+	Date: $2
+%}]]></content>
+    <tabTrigger>docfile</tabTrigger>
+    <scope>source.matlab</scope>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[import std.stdio : stderr;
+stderr.writeln("${1:Hello, world!}");]]></content>
+    <tabTrigger>insewtln</tabTrigger>
+    <description>insert stdout print</description>
+    <scope>source.d</scope>
+</snippet>

@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[#! /bin/rdmd]]></content>
+    <tabTrigger>rdmd</tabTrigger>
+    <scope>source.d</scope>
+</snippet>

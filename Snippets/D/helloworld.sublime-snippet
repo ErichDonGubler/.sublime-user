@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[import std.stdio;
+
+int main(string[] args)
+{
+	writeln("Hello, world!");
+	return 0;
+}]]></content>
+    <tabTrigger>helloworld</tabTrigger>
+    <scope>source.d</scope>
+</snippet>

@@ -1,0 +1,18 @@
+{
+	"patterns":
+	{
+	    "TODO": "TODO[\\s]*?:[\\s]*(?P<todo>.*)$",
+	    "DEBUG": "DOCUMENT[\\s]*?:[\\s]*(?P<document>.*)$",
+	    "FIXME": "FIX ?ME[\\s]*?:[\\s]*(?P<fixme>.*)$",
+	    "TEST": "TEST[\\s]*?:[\\s]*(?P<test>.*)$",
+	},
+	"patterns_weight":
+	{
+		"DEBUG": 2,
+		"TODO": 5,
+	    "DOCUMENT": 3,
+	    "TEST": 2,
+	    "FIXME": 1,
+	    "REMOVE": 2
+	}
+}

@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[case ${1:CASE_NAME}:
+{
+	${2://stuff}
+	break;
+}]]></content>
+    <tabTrigger>caseb</tabTrigger>
+    <scope>source.c, source.objc, source.c++, source.d</scope>
+</snippet>

@@ -1,0 +1,5 @@
+{
+	"terminal": "C:\\tools\\cygwin\\bin\\mintty.exe",
+	"parameters": ["-t", "Bash", "/bin/env", "CHERE_INVOKING=1", "/bin/bash", "-il",]
+}
+ 

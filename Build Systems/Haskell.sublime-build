@@ -1,0 +1,9 @@
+{
+    "selector": "source.matlab",
+	"shell": true,
+	"cmd": "octave -qf \"$file\"",
+	"windows":
+	{
+		"cmd": "\"C:\\Octave\\Octave-4.0.0\\bin\\octave-cli.exe\" -qf \"$file\""
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"color_scheme": "Packages/PlainTasks/tasks.hidden-tmTheme",
+	"font_size": 16,
+	"margin": 20,
+	"tab_size": 2,
+	"line_padding_bottom": 2,
+	"line_padding_top": 2,
+ 	"before_tasks_bullet_margin": 1,
+}

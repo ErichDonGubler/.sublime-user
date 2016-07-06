@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[#ifndef ${1:HEADER_H}
+#define $1
+
+$2
+
+#endif]]></content>
+    <tabTrigger>headerfile</tabTrigger>
+    <scope>source.c, source.objc, source.c++, source.objc++</scope>
+</snippet>

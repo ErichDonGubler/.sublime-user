@@ -1,0 +1,30 @@
+{
+	"selector": ["source.c", "source.c++"],
+	"working_dir": "$file_path",
+	"shell": true,
+	"cmd": "g++ -std=c++14 \"$file\" -o \"$file_base_name.exe\"",
+	"windows":
+	{
+		"cmd": "g++ -std=c++14 \"$file\" -o \"$file_base_name.exe\"",
+	},
+	"variants":
+	[
+		{
+			"name": "Run",
+			"cmd": "./$file_base_name.exe",
+			"windows":
+			{
+				"cmd": "$file_base_name.exe"
+			},
+		},
+		{
+			"name": "Build and Run",
+			"shell": true,
+			"cmd": "g++ -std=c++14 \"$file\" -o \"$file_base_name.exe\" && ./$file_base_name.exe",
+			"windows":
+			{
+				"cmd": "g++ -std=c++14 \"$file\" -o \"$file_base_name.exe\" && $file_base_name.exe"
+			},
+		}
+	]
+}

@@ -1,0 +1,6 @@
+// Copy this and place into your Packages/User directory.
+{
+	// The full path to the racer binary. If racer is already
+	// in your system path, then this default will be fine.
+	"racer": "racer",
+}

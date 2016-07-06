@@ -1,0 +1,8 @@
+{
+	"dcd_path": "C:\\Users\\Erich\\AppData\\Roaming\\Sublime Text 3\\Packages\\DCD",
+  	"dcd_port": 9166,
+	"include_paths": [
+		"C:\\D\\dmd2\\src\\phobos",
+		"C:\\D\\dmd2\\src\\druntime\\import"
+	]
+}

@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[${2:cout} << "${1:Hello, world!}" << endl;]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>cout</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.c, source.objc, source.c++, source.objc++</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>cout (no std::)</description>
+</snippet>
+
+

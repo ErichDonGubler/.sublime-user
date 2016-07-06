@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[write("${1:Hello, world!}"$2);]]></content>
+    <tabTrigger>wt</tabTrigger>
+    <scope>source.d</scope>
+</snippet>

@@ -1,0 +1,6 @@
+{
+    "selector": "source.awk",
+    "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+    "shell": true,
+    "cmd": "awk -f $file",
+}

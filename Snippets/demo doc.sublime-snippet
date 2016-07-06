@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[/**
+ * Demo: $TM_FILENAME
+ * Purpose: $1
+ * Authors: ${3:$TM_FULLNAME} (${4:$TM_EMAIL})
+ * Date: $2
+ */]]></content>
+    <tabTrigger>docdemo</tabTrigger>
+    <scope>source.c, source.objc, source.c++, source.d</scope>
+</snippet>

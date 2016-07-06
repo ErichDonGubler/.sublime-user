@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[stderr.writeln("${1:Hello, world!}"$2);]]></content>
+    <tabTrigger>ewtln</tabTrigger>
+    <scope>source.d</scope>
+</snippet>

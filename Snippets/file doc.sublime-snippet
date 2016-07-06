@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[/**
+ * $1
+ * Authors: ${2:$TM_FULLNAME} (${3:$TM_EMAIL})
+ */]]></content>
+    <tabTrigger>docfile</tabTrigger>
+    <scope>source.c, source.objc, source.c++, source.d</scope>
+</snippet>

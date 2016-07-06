@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[import std.${1:stdio} : ${2:writeln};]]></content>
+    <tabTrigger>ipts</tabTrigger>
+    <description>import std.&lt;...&gt; : &lt;...&gt;</description>
+    <scope>source.d</scope>
+</snippet>

@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[print("${1:Hello, world!}")]]></content>
+    <tabTrigger>pt</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

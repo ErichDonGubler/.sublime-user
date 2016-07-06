@@ -1,0 +1,8 @@
+{
+	"flipped_key_bindings": false,
+	"excluded_filetypes": [],
+	"force_indent_at_upper_level" : true,
+	"right_to_left_backspacing" : "enabled",
+	"backspace_line_content_move": "enabled",
+	"consume_above_line": true,
+}

@@ -1,0 +1,30 @@
+[
+		{ "keys": ["ctrl+alt+m"],        "command": "toggle_menu"},
+		{ "keys": ["ctrl+alt+shift+b"],  "command": "sublime_bookmark", "args": { "type": "goto" } },
+		{ "keys": ["ctrl+shift+a"],      "command": "alignment" },
+		{ "keys": ["alt+shift+r"],       "command": "zen_tabs_reload"},
+		{ "keys": ["alt+shift+p"],       "command": "switch_tabs"},
+		{ "keys": ["ctrl+alt+b"],        "command": "show_panel",       "args": { "panel": "output.exec"} },
+		{ "keys": ["ctrl+alt+e"],        "command": "open_dir",         "args": {"dir": "$file_path", "file": "$file_name"} },
+		{ "keys": ["ctrl+alt+shift+e"],  "command": "open_dir",         "args": {"dir": "$project_path/.."} },
+		{ "keys": ["ctrl+alt+r"],        "command": "goto_definition" },
+		// Rebind Terminal keys (because it interferes with reopen)
+		{ "keys": ["ctrl+alt+t"],        "command": "open_terminal" },
+		{ "keys": ["ctrl+shift+t"],      "command": "reopen_last_file" },
+
+		// PlainTasks
+		{ "keys": ["ctrl+d"], "command": "find_under_expand" }, // Don't do ctrl+d override
+		{ "keys": ["alt+d"], "command": "plain_tasks_complete","context": [{ "key": "selector", "operator": "equal", "operand": "text.todo" }] },
+
+		// Old bindings for project list
+		{ "keys": ["ctrl+alt+p"], "command": "prompt_select_workspace" },
+
+		// SublimeFileBrowser
+		{ "keys": ["ctrl+alt+f"], "command": "dired", "args": { "immediate": true, "single_pane": true, "other_group": "right", "project": true} },
+		{ "keys": ["ctrl+alt+shift+f"], "command": "dired_jump", "args": { "new_window": true } },
+
+		// Hungry backspace
+		{ "keys": ["backspace"], "command": "hungry_backspace" },
+		{ "keys": ["shift+backspace"], "command": "default_backspace"},
+		{ "keys": ["ctrl+."], "command": "flip_hungry_backspace_key_bindings"}
+]	

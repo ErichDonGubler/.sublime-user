@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[print("${1:var}:", ${1:var})]]></content>
+    <tabTrigger>ptvar</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

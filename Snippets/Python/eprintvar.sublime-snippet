@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[print("${1:var}:", ${1:var}, file=sys.stderr)]]></content>
+    <tabTrigger>eptvar</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[case ${1:CASE_NAME}:
+	${2://stuff}
+	break;]]></content>
+    <tabTrigger>case</tabTrigger>
+    <scope>source.c, source.objc, source.c++, source.d, source.java</scope>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[# $1
+# Authors: ${2:$TM_FULLNAME} (${3:$TM_EMAIL})]]></content>
+    <tabTrigger>docfile</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

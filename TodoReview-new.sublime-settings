@@ -1,0 +1,28 @@
+{
+	"patterns":
+	[
+		"(?P<keyword>\\w+)\\s*:\\s*(?P<note>.*)$",
+		"^\\s*(?P<note>.*)(\\/\\/|\\#)\\s*(?P<keyword>\\w+)\\s*$"
+	],
+	"keywords":
+	{
+		"TEST":
+		{
+			"pattern": "TEST(?:ING)?",
+			"weight": 1
+		},
+		"DEBUG": { "weight": 2 },
+		"REMOVE": { "weight": 3 },
+		"FIXME":
+		{
+			"pattern": "FIX(?:ME)?",
+			"weight": 4
+		},
+		"DOCUMENT":
+		{
+			"weight": 5
+		},
+		"XXX": { "weight": 6 },
+		"TODO": {}
+	}
+}

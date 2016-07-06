@@ -1,0 +1,23 @@
+<snippet>
+    <content><![CDATA[import std.csv : csvReader;
+import std.file : readText, FileException;
+string content;
+try
+{
+	content = ${1:"test.csv"}.readText;
+	auto reader = csvReader!(string[string])(content, null);
+	foreach(record; reader)
+	{
+		writeln("record: ", record);
+	}
+}
+catch(FileException e)
+{
+	stderr.writeln(e.msg);
+	return 1;
+}
+]]></content>
+    <tabTrigger>csvreadercall</tabTrigger>
+    <description>std.csv.csvReader call code</description>
+    <scope>source.d</scope>
+</snippet>

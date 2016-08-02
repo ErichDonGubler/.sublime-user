@@ -1,0 +1,5 @@
+[
+	// Since I prefer to use Spectacle's shortcuts for certain things, we need to shift the replace functionalities around.
+	{ "keys": ["super+shift+f"], "command": "show_panel", "args": {"panel": "replace", "reverse": false} },
+	{ "keys": ["super+alt+shift+f"], "command": "show_panel", "args": {"panel": "find_in_files"} },
+]

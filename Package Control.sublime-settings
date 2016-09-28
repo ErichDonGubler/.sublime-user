@@ -1,5 +1,9 @@
 {
 	"bootstrapped": true,
+	"in_process_packages":
+	[
+		"PKGBUILD"
+	],
 	"installed_packages":
 	[
 		"All Autocomplete",
@@ -43,5 +47,9 @@
 		"TodoReview",
 		"View In Browser",
 		"XSLT Snippets"
+	],
+	"repositories":
+	[
+		"https://github.com/titoBouzout/SideBarEnhancements/tree/st3"
 	]
 }

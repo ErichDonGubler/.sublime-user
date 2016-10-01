@@ -1,4 +1,19 @@
 {
     "selector": "source.d",
-	"cmd": ["rdmd", "$file"]
+	"cmd": ["rdmd", "$file"],
+	"variants":
+	[
+		{
+			"name": "Debug",
+			"cmd": ["rdmd", "-debug", "$file"]
+		},
+		{
+			"name": "Unittest",
+			"cmd": ["rdmd", "-unittest", "$file"]
+		},
+		{
+			"name": "Unittest Debug",
+			"cmd": ["rdmd", "-unittest", "-debug", "$file"]
+		}
+	]
 }

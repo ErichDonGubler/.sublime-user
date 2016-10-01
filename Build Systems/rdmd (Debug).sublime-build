@@ -1,4 +1,0 @@
-{
-    "selector": "source.d",
-	"cmd": ["rdmd", "-debug", "$file"]
-}

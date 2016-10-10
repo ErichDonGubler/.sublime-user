@@ -1,5 +1,5 @@
 {
-    "selector": "source.d",
+	"selector": "source.d",
 	"cmd": ["rdmd", "$file"],
 	"variants":
 	[

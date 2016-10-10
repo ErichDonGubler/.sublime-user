@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[${1:node} [label="${2:${1/^(\w)|(?:_(\w))/(?1\u$1:)(?2 \u$2:)/g}}"];]]></content>
+    <tabTrigger>node</tabTrigger>
+    <scope>source.dot</scope>c
+</snippet>

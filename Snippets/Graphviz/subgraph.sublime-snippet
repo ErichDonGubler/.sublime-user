@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[subgraph cluster_${1:Name} {
+	label="${2:${1/^(\w)|(?:_(\w))/(?1\u$1:)(?2 \u$2:)/g}}";
+	${3:}
+}]]></content>
+    <tabTrigger>subgraph</tabTrigger>
+    <scope>source.dot</scope>
+</snippet>

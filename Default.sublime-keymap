@@ -8,6 +8,8 @@
 		{ "keys": ["ctrl+alt+e"],        "command": "open_dir",         "args": {"dir": "$file_path", "file": "$file_name"} },
 		{ "keys": ["ctrl+alt+shift+e"],  "command": "open_dir",         "args": {"dir": "$project_path/.."} },
 		{ "keys": ["ctrl+alt+r"],        "command": "goto_definition" },
+		{ "keys": ["ctrl+i"],            "command": "reindent" },
+
 		// Rebind Terminal keys (because it interferes with reopen)
 		{ "keys": ["ctrl+alt+t"],        "command": "open_terminal" },
 		{ "keys": ["ctrl+shift+t"],      "command": "reopen_last_file" },
@@ -26,5 +28,8 @@
 		// Hungry backspace
 		{ "keys": ["backspace"], "command": "hungry_backspace" },
 		{ "keys": ["shift+backspace"], "command": "default_backspace"},
-		{ "keys": ["ctrl+."], "command": "flip_hungry_backspace_key_bindings"}
-]	
+
+		// Weird stuff with alt+{left,right}
+		{ "keys": ["alt+left"], "command": "move", "args": {"by": "subwords", "forward": false} },
+		{ "keys": ["alt+right"], "command": "move", "args": {"by": "subword_ends", "forward": true} },
+]

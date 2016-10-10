@@ -2,4 +2,8 @@
 	// Since I prefer to use Spectacle's shortcuts for certain things, we need to shift the replace functionalities around.
 	{ "keys": ["super+shift+f"], "command": "show_panel", "args": {"panel": "replace", "reverse": false} },
 	{ "keys": ["super+alt+shift+f"], "command": "show_panel", "args": {"panel": "find_in_files"} },
+
+	// Swap the keybindings for paste and paste_and_indent (found [here](https://gist.github.com/twosixcode/1988097))
+	{ "keys": ["super+v"], "command": "paste_and_indent" },
+	{ "keys": ["super+shift+v"], "command": "paste" },
 ]

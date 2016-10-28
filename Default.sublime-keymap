@@ -32,4 +32,6 @@
 		// Weird stuff with alt+{left,right}
 		{ "keys": ["alt+left"], "command": "move", "args": {"by": "subwords", "forward": false} },
 		{ "keys": ["alt+right"], "command": "move", "args": {"by": "subword_ends", "forward": true} },
+
+		{ "keys": [ "alt+shift+t" ], "command": "tabr" },
 ]

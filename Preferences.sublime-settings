@@ -1,11 +1,15 @@
 {
-    "always_show_minimap_viewport": false,
+	"always_show_minimap_viewport": false,
 	"bold_folder_labels": true,
 	"caret_style": "smooth",
 	"font_size": 11,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
-	"indent_guide_options": [ "draw_normal", "draw_active" ],   // Highlight active indent
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
 	"line_padding_bottom": 1,
 	"line_padding_top": 1,
 	"material_theme_accent_indigo": true,

@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[console.log('${1:variable}: ' + JSON.stringify(${1:variable}));]]></content>
+    <tabTrigger>clogvarobj</tabTrigger>
+    <scope>source.js</scope>
+</snippet>

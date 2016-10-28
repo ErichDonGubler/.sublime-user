@@ -2,4 +2,8 @@
 	// Swap the keybindings for paste and paste_and_indent (found [here](https://gist.github.com/twosixcode/1988097))
 	{ "keys": ["ctrl+v"], "command": "paste_and_indent" },
 	{ "keys": ["ctrl+shift+v"], "command": "paste" },
+
+	// Unify keybindings from Linux for multi-selection with the keyboard
+	{ "keys": ["alt+up"], "command": "select_lines", "args": {"forward": false} },
+	{ "keys": ["alt+down"], "command": "select_lines", "args": {"forward": true} },
 ]

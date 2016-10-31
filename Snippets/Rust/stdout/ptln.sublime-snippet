@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[println!("${1:Hello, world!}"$2);]]></content>
+    <tabTrigger>ptln</tabTrigger>
+    <scope>source.rust</scope>
+</snippet>

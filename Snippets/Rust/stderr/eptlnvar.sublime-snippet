@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[writeln!(&mut std::io::stderr(), "${1:var}: {${2::?}}", $1);]]></content>
+    <tabTrigger>eptlnvar</tabTrigger>
+    <scope>source.rust</scope>
+</snippet>

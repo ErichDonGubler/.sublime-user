@@ -1,18 +1,21 @@
 {
 	"patterns":
 	{
-	    "TODO": "TODO[\\s]*?:[\\s]*(?P<todo>.*)$",
-	    "DEBUG": "DOCUMENT[\\s]*?:[\\s]*(?P<document>.*)$",
-	    "FIXME": "FIX ?ME[\\s]*?:[\\s]*(?P<fixme>.*)$",
-	    "TEST": "TEST[\\s]*?:[\\s]*(?P<test>.*)$",
+		"DEBUG": "DOCUMENT[\\s]*?:[\\s]*(?P<document>.*)$",
+		"FIXME": "FIX ?ME[\\s]*?:[\\s]*(?P<fixme>.*)$",
+		"REMOVE": "REMOVE[\\s]*?:[\\s]*(?P<remove>.*)$",
+		"TEST": "TEST[\\s]*?:[\\s]*(?P<test>.*)$",
+		"TODO": "TODO[\\s]*?:[\\s]*(?P<todo>.*)$",
+		"XXX": "XXX[\\s]*?:[\\s]*(?P<xxx>.*)$",
 	},
 	"patterns_weight":
 	{
-		"DEBUG": 2,
+		"DEBUG": 3,
 		"TODO": 5,
-	    "DOCUMENT": 3,
-	    "TEST": 2,
-	    "FIXME": 1,
-	    "REMOVE": 2
-	}
+		"DOCUMENT": 2,
+		"FIXME": 1,
+		"REMOVE": 2,
+		"TEST": 3,
+		"XXX": 4,
+	},
 }

@@ -1,7 +1,8 @@
 <snippet>
     <content><![CDATA[fn main() {
 	println!("Hello, world!");
-}]]></content>
+}
+]]></content>
     <tabTrigger>helloworld</tabTrigger>
     <scope>source.rust</scope>
 </snippet>

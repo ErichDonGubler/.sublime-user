@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[process.stdout.write('${2:${1:variable}}: ', $1);]]></content>
+    <tabTrigger>wlogvar</tabTrigger>
+    <description>Log variable without newline (NodeJS)</description>
+    <scope>source.js</scope>
+</snippet>

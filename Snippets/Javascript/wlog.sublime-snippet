@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[process.stdout.write('${1:Hello, world!}'${2:});]]></content>
+    <tabTrigger>wlog</tabTrigger>
+    <description>Log without newline (NodeJS)</description>
+    <scope>source.js</scope>
+</snippet>

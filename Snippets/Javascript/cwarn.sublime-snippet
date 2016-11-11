@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[console.warning('${1:Hello, world!}'${2:});]]></content>
+    <tabTrigger>cwarn</tabTrigger>
+    <description>Print a warning</description>
+    <scope>source.js</scope>
+</snippet>

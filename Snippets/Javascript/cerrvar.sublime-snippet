@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[console.error('${2:${1:variable}}: ', $1);]]></content>
+    <tabTrigger>cerrvar</tabTrigger>
+    <description>Print variable with error</description>
+    <scope>source.js</scope>
+</snippet>

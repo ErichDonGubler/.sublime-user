@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[console.warning('${2:${1:variable}}: ', $1);]]></content>
+    <tabTrigger>cwarnvar</tabTrigger>
+    <description>Print variable with warning</description>
+    <scope>source.js</scope>
+</snippet>

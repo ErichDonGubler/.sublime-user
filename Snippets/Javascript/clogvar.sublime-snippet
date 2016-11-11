@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[console.log('${1:variable}: ' + ${1:variable});]]></content>
+    <content><![CDATA[console.log('${2:${1:variable}}: ', $1);]]></content>
     <tabTrigger>clogvar</tabTrigger>
     <scope>source.js</scope>
 </snippet>

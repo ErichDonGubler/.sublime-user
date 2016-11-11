@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[import std.stdio : stderr;
-stderr.writeln("${1:var}: ", $1);]]></content>
+stderr.writeln("${2:${1:var}}: ", $1);]]></content>
     <tabTrigger>insewtlnvar</tabTrigger>
     <description>insert stdout print</description>
     <scope>source.d</scope>

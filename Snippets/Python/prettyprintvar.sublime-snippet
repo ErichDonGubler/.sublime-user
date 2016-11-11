@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[import pprint
 pp = pprint.PrettyPrinter()
-print("${1:var}: ", end="")
+print("${2:${1:var}}: ", end="")
 pp.pprint(${1:var})]]></content>
     <tabTrigger>pptvar</tabTrigger>
     <scope>source.python</scope>

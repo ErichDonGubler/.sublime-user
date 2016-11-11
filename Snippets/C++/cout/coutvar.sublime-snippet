@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[${2:cout} << "${1:var}: " << $1 << endl;]]></content>
+    <content><![CDATA[${3:cout} << "${2:${1:var}}: " << $1 << endl;]]></content>
     <!-- Optional: Tab trigger to activate the snippet -->
     <tabTrigger>coutvar</tabTrigger>
     <!-- Optional: Scope the tab trigger will be active in -->

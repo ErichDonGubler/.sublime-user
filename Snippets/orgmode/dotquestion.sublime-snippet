@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[- ??? ${1:}]]></content>
+    <tabTrigger>-q</tabTrigger>
+    <description>Research item</description>
+    <scope>text.orgmode</scope>
+</snippet>

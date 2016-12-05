@@ -1,14 +1,15 @@
 [
+		{ "keys": ["ctrl+shift+r"],      "command": "goto_symbol_in_project" },
 		{ "keys": ["ctrl+alt+m"],        "command": "toggle_menu"},
 		{ "keys": ["ctrl+alt+shift+b"],  "command": "sublime_bookmark", "args": { "type": "goto" } },
 		{ "keys": ["ctrl+shift+a"],      "command": "alignment" },
-		{ "keys": ["alt+shift+r"],       "command": "zen_tabs_reload"},
 		{ "keys": ["alt+shift+p"],       "command": "switch_tabs"},
 		{ "keys": ["ctrl+alt+b"],        "command": "show_panel",       "args": { "panel": "output.exec"} },
 		{ "keys": ["ctrl+alt+e"],        "command": "open_dir",         "args": {"dir": "$file_path", "file": "$file_name"} },
 		{ "keys": ["ctrl+alt+shift+e"],  "command": "open_dir",         "args": {"dir": "$project_path/.."} },
 		{ "keys": ["ctrl+alt+r"],        "command": "goto_definition" },
 		{ "keys": ["ctrl+i"],            "command": "reindent" },
+		{ "keys": ["shift+delete"],      "command": "run_macro_file",   "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
 
 		// Rebind Terminal keys (because it interferes with reopen)
 		{ "keys": ["ctrl+alt+t"],        "command": "open_terminal" },

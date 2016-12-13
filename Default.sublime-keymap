@@ -35,4 +35,7 @@
 		{ "keys": ["alt+right"], "command": "move", "args": {"by": "subword_ends", "forward": true} },
 
 		{ "keys": [ "alt+shift+t" ], "command": "tabr" },
+
+		{ "keys": [ "alt+shift+1" ], "command": "tabstash" },
+		{ "keys": [ "alt+shift+3" ], "command": "tabpopstash" },
 ]

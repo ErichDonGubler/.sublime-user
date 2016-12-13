@@ -33,6 +33,7 @@
 		"PKGBUILD",
 		"PlainTasks",
 		"PowerShell",
+		"Pretty JSON",
 		"Project Specific Syntax Settings",
 		"Rainbowth",
 		"Rust Enhanced",
@@ -42,6 +43,7 @@
 		"SideBarEnhancements",
 		"Syntax Highlighting for Sass",
 		"tabr",
+		"tabstasher",
 		"Terminal",
 		"Text Pastry",
 		"Theme - amCoder",
@@ -54,6 +56,7 @@
 	],
 	"repositories":
 	[
-		"https://github.com/titoBouzout/SideBarEnhancements/tree/st3"
+		"https://github.com/titoBouzout/SideBarEnhancements/tree/st3",
+		"https://github.com/GonzoGhanem/tabstasher.git"
 	]
 }

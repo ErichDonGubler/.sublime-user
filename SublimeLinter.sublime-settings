@@ -11,14 +11,14 @@
                 "@disable": false,
                 "args": [],
                 "errors": [
-                    "FIXME"
+                    "FIXME",
+                    "TEST"
                 ],
                 "excludes": [],
                 "warnings": [
-                	"DOC",
-                	"DOCUMENT",
-                	"OPT",
-
+                    "DOC",
+                    "DOCUMENT",
+                    "OPT",
                     "NOTE",
                     "README",
                     "TODO",

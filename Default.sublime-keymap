@@ -10,6 +10,7 @@
 		{ "keys": ["ctrl+alt+r"],        "command": "goto_definition" },
 		{ "keys": ["ctrl+i"],            "command": "reindent" },
 		{ "keys": ["shift+delete"],      "command": "run_macro_file",   "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
+		{ "keys": ["alt+shift+b"],        "command": "exec",             "args": {"kill": true} },
 
 		// Rebind Terminal keys (because it interferes with reopen)
 		{ "keys": ["ctrl+alt+t"],        "command": "open_terminal" },

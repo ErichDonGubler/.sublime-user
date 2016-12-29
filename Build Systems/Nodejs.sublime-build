@@ -1,5 +1,5 @@
 {
-	"selector": ["source.js"],
+	"selector": "source.js",
 	"working_dir": "$file_path",
 	"shell_cmd": "node \"$file\""
 }

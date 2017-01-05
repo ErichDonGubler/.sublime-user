@@ -1,42 +1,117 @@
 [
-		{ "keys": ["ctrl+shift+r"],      "command": "goto_symbol_in_project" },
-		{ "keys": ["ctrl+alt+m"],        "command": "toggle_menu"},
-		{ "keys": ["ctrl+alt+shift+b"],  "command": "sublime_bookmark", "args": { "type": "goto" } },
-		{ "keys": ["ctrl+shift+a"],      "command": "alignment" },
-		{ "keys": ["alt+shift+p"],       "command": "switch_tabs"},
-		{ "keys": ["ctrl+alt+b"],        "command": "show_panel",       "args": { "panel": "output.exec"} },
-		{ "keys": ["ctrl+alt+e"],        "command": "open_dir",         "args": {"dir": "$file_path", "file": "$file_name"} },
-		{ "keys": ["ctrl+alt+shift+e"],  "command": "open_dir",         "args": {"dir": "$project_path/.."} },
-		{ "keys": ["ctrl+alt+r"],        "command": "goto_definition" },
-		{ "keys": ["ctrl+i"],            "command": "reindent" },
-		{ "keys": ["shift+delete"],      "command": "run_macro_file",   "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
-		{ "keys": ["alt+shift+b"],        "command": "exec",             "args": {"kill": true} },
+	{ "keys": ["ctrl+shift+r"],      "command": "goto_symbol_in_project" },
+	{ "keys": ["ctrl+alt+m"],        "command": "toggle_menu"},
+	{ "keys": ["ctrl+alt+shift+b"],  "command": "sublime_bookmark", "args": { "type": "goto" } },
+	{ "keys": ["ctrl+shift+a"],      "command": "alignment" },
+	{ "keys": ["alt+shift+p"],       "command": "switch_tabs"},
+	{ "keys": ["ctrl+alt+b"],        "command": "show_panel",       "args": { "panel": "output.exec"} },
+	{ "keys": ["ctrl+alt+e"],        "command": "open_dir",         "args": {"dir": "$file_path", "file": "$file_name"} },
+	{ "keys": ["ctrl+alt+shift+e"],  "command": "open_dir",         "args": {"dir": "$project_path/.."} },
+	{ "keys": ["ctrl+alt+r"],        "command": "goto_definition" },
+	{ "keys": ["ctrl+i"],            "command": "reindent" },
+	{ "keys": ["shift+delete"],      "command": "run_macro_file",   "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
+	{ "keys": ["alt+shift+b"],        "command": "exec",             "args": {"kill": true} },
 
-		// Rebind Terminal keys (because it interferes with reopen)
-		{ "keys": ["ctrl+alt+t"],        "command": "open_terminal" },
-		{ "keys": ["ctrl+shift+t"],      "command": "reopen_last_file" },
+	// Rebind numpad keys to layout controls
+	{ "keys": ["keypad2"],           "command": "travel_to_pane", "args": { "direction": "down" } },
+	{ "keys": ["keypad4"],           "command": "travel_to_pane", "args": { "direction": "left" } },
+	{ "keys": ["keypad6"],           "command": "travel_to_pane", "args": { "direction": "right" } },
+	{ "keys": ["keypad8"],           "command": "travel_to_pane", "args": { "direction": "up" } },
+	{ "keys": ["alt+keypad2"],       "command": "carry_file_to_pane", "args": { "direction": "down" } },
+	{ "keys": ["alt+keypad4"],       "command": "carry_file_to_pane", "args": { "direction": "left" } },
+	{ "keys": ["alt+keypad6"],       "command": "carry_file_to_pane", "args": { "direction": "right" } },
+	{ "keys": ["alt+keypad8"],       "command": "carry_file_to_pane", "args": { "direction": "up" } },
+	{ "keys": ["ctrl+keypad2"],      "command": "destroy_pane",    "args": { "direction": "down" } },
+	{ "keys": ["ctrl+keypad4"],      "command": "destroy_pane",    "args": { "direction": "left" } },
+	{ "keys": ["ctrl+keypad6"],      "command": "destroy_pane",    "args": { "direction": "right" } },
+	{ "keys": ["ctrl+keypad8"],      "command": "destroy_pane",    "args": { "direction": "up" } },
+	{ "keys": ["ctrl+keypad5"],      "command": "destroy_pane",    "args": { "direction": "self" } },
+	{ "keys": ["ctrl+alt+keypad2"],  "command": "create_pane_with_file", "args": { "direction": "down" } },
+	{ "keys": ["ctrl+alt+keypad4"],  "command": "create_pane_with_file", "args": { "direction": "left" } },
+	{ "keys": ["ctrl+alt+keypad6"],  "command": "create_pane_with_file", "args": { "direction": "right" } },
+	{ "keys": ["ctrl+alt+keypad8"],  "command": "create_pane_with_file", "args": { "direction": "up" } },
+	{
+		"keys": ["keypad5"],
+		"command": "set_layout",
+		"args": {
+			"cols": [0.0, 1.0],
+			"rows": [0.0, 1.0],
+			"cells": [[0, 0, 1, 1]]
+		}
+	},
 
-		// PlainTasks
-		{ "keys": ["ctrl+d"], "command": "find_under_expand" }, // Don't do ctrl+d override
-		{ "keys": ["alt+d"], "command": "plain_tasks_complete","context": [{ "key": "selector", "operator": "equal", "operand": "text.todo" }] },
+	{
+		"keys": ["keypad7"],
+		"command": "set_layout",
+		"args": {
+			"cols": [0.0, 0.5, 1.0],
+			"rows": [0.0, 1.0],
+			"cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
+		}
+	},
+	{
+		"keys": ["keypad9"],
+		"command": "set_layout",
+		"args": {
+			"cols": [0.0, 0.33, 0.66, 1.0],
+			"rows": [0.0, 1.0],
+			"cells": [[0, 0, 1, 1], [1, 0, 2, 1], [2, 0, 3, 1]]
+		}
+	},
+	{
+		"keys": ["keypad1"],
+		"command": "set_layout",
+		"args": {
+			"cols": [0.0, 0.25, 0.5, 0.75, 1.0],
+			"rows": [0.0, 1.0],
+			"cells": [[0, 0, 1, 1], [1, 0, 2, 1], [2, 0, 3, 1], [3, 0, 4, 1]]
+		}
+	},
+	{
+		"keys": ["keypad3"],
+		"command": "set_layout",
+		"args": {
+			"cols": [0.0, 0.5, 1.0],
+			"rows": [0.0, 0.5, 1.0],
+			"cells":
+			[
+				[0, 0, 1, 1], [1, 0, 2, 1],
+				[0, 1, 1, 2], [1, 1, 2, 2]
+			]
+		}
+	},
 
-		// Old bindings for project list
-		{ "keys": ["ctrl+alt+p"], "command": "prompt_select_workspace" },
+	// Rebind numpad operator keys to bookmark management
+	{ "keys": ["keypad_divide"],     "command": "sublime_bookmark", "args": { "type": "add" } },
+	{ "keys": ["shift+keypad_divide"],     "command": "sublime_bookmark", "args": { "type": "remove" } },
+	{ "keys": ["keypad_multiply"],   "command": "sublime_bookmark", "args": { "type": "toggle_line" } },
+	{ "keys": ["keypad_minus"],      "command": "sublime_bookmark", "args": { "type": "goto" } },
 
-		// SublimeFileBrowser
-		{ "keys": ["ctrl+alt+f"], "command": "dired", "args": { "immediate": true, "single_pane": true, "other_group": "right", "project": true} },
-		{ "keys": ["ctrl+alt+shift+f"], "command": "dired_jump", "args": { "new_window": true } },
+	// Rebind Terminal keys (because it interferes with reopen)
+	{ "keys": ["ctrl+alt+t"],        "command": "open_terminal" },
+	{ "keys": ["ctrl+shift+t"],      "command": "reopen_last_file" },
 
-		// Hungry backspace
-		{ "keys": ["backspace"], "command": "hungry_backspace" },
-		{ "keys": ["shift+backspace"], "command": "default_backspace"},
+	// PlainTasks
+	{ "keys": ["ctrl+d"], "command": "find_under_expand" }, // Don't do ctrl+d override
+	{ "keys": ["alt+d"], "command": "plain_tasks_complete","context": [{ "key": "selector", "operator": "equal", "operand": "text.todo" }] },
 
-		// Weird stuff with alt+{left,right}
-		{ "keys": ["alt+left"], "command": "move", "args": {"by": "subwords", "forward": false} },
-		{ "keys": ["alt+right"], "command": "move", "args": {"by": "subword_ends", "forward": true} },
+	// Old bindings for project list
+	{ "keys": ["ctrl+alt+p"], "command": "prompt_select_workspace" },
 
-		{ "keys": [ "alt+shift+t" ], "command": "tabr" },
+	// SublimeFileBrowser
+	{ "keys": ["ctrl+alt+f"], "command": "dired", "args": { "immediate": true, "single_pane": true, "other_group": "right", "project": true} },
+	{ "keys": ["ctrl+alt+shift+f"], "command": "dired_jump", "args": { "new_window": true } },
 
-		{ "keys": [ "alt+shift+1" ], "command": "tabstash" },
-		{ "keys": [ "alt+shift+3" ], "command": "tabpopstash" },
+	// Hungry backspace
+	{ "keys": ["backspace"], "command": "hungry_backspace" },
+	{ "keys": ["shift+backspace"], "command": "default_backspace"},
+
+	// Weird stuff with alt+{left,right}
+	{ "keys": ["alt+left"], "command": "move", "args": {"by": "subwords", "forward": false} },
+	{ "keys": ["alt+right"], "command": "move", "args": {"by": "subword_ends", "forward": true} },
+
+	{ "keys": [ "alt+shift+t" ], "command": "tabr" },
+
+	{ "keys": [ "alt+shift+1" ], "command": "tabstash" },
+	{ "keys": [ "alt+shift+3" ], "command": "tabpopstash" },
 ]

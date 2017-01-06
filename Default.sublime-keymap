@@ -13,14 +13,10 @@
 	{ "keys": ["alt+shift+b"],        "command": "exec",             "args": {"kill": true} },
 
 	// Rebind numpad keys to layout controls
-	{ "keys": ["keypad2"],           "command": "travel_to_pane", "args": { "direction": "down" } },
-	{ "keys": ["keypad4"],           "command": "travel_to_pane", "args": { "direction": "left" } },
-	{ "keys": ["keypad6"],           "command": "travel_to_pane", "args": { "direction": "right" } },
-	{ "keys": ["keypad8"],           "command": "travel_to_pane", "args": { "direction": "up" } },
-	{ "keys": ["alt+keypad2"],       "command": "carry_file_to_pane", "args": { "direction": "down" } },
-	{ "keys": ["alt+keypad4"],       "command": "carry_file_to_pane", "args": { "direction": "left" } },
-	{ "keys": ["alt+keypad6"],       "command": "carry_file_to_pane", "args": { "direction": "right" } },
-	{ "keys": ["alt+keypad8"],       "command": "carry_file_to_pane", "args": { "direction": "up" } },
+	{ "keys": ["alt+keypad2"],       "command": "travel_to_pane", "args": { "direction": "down" } },
+	{ "keys": ["alt+keypad4"],       "command": "travel_to_pane", "args": { "direction": "left" } },
+	{ "keys": ["alt+keypad6"],       "command": "travel_to_pane", "args": { "direction": "right" } },
+	{ "keys": ["alt+keypad8"],       "command": "travel_to_pane", "args": { "direction": "up" } },
 	{ "keys": ["ctrl+keypad2"],      "command": "destroy_pane",    "args": { "direction": "down" } },
 	{ "keys": ["ctrl+keypad4"],      "command": "destroy_pane",    "args": { "direction": "left" } },
 	{ "keys": ["ctrl+keypad6"],      "command": "destroy_pane",    "args": { "direction": "right" } },
@@ -31,7 +27,7 @@
 	{ "keys": ["ctrl+alt+keypad6"],  "command": "create_pane_with_file", "args": { "direction": "right" } },
 	{ "keys": ["ctrl+alt+keypad8"],  "command": "create_pane_with_file", "args": { "direction": "up" } },
 	{
-		"keys": ["keypad5"],
+		"keys": ["alt+keypad5"],
 		"command": "set_layout",
 		"args": {
 			"cols": [0.0, 1.0],
@@ -41,7 +37,7 @@
 	},
 
 	{
-		"keys": ["keypad7"],
+		"keys": ["alt+keypad7"],
 		"command": "set_layout",
 		"args": {
 			"cols": [0.0, 0.5, 1.0],
@@ -50,7 +46,7 @@
 		}
 	},
 	{
-		"keys": ["keypad9"],
+		"keys": ["alt+keypad9"],
 		"command": "set_layout",
 		"args": {
 			"cols": [0.0, 0.33, 0.66, 1.0],
@@ -59,7 +55,7 @@
 		}
 	},
 	{
-		"keys": ["keypad1"],
+		"keys": ["alt+keypad1"],
 		"command": "set_layout",
 		"args": {
 			"cols": [0.0, 0.25, 0.5, 0.75, 1.0],
@@ -68,7 +64,7 @@
 		}
 	},
 	{
-		"keys": ["keypad3"],
+		"keys": ["alt+keypad3"],
 		"command": "set_layout",
 		"args": {
 			"cols": [0.0, 0.5, 1.0],

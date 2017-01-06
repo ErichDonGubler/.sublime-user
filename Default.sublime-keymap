@@ -101,6 +101,7 @@
 	// Hungry backspace
 	{ "keys": ["backspace"], "command": "hungry_backspace" },
 	{ "keys": ["shift+backspace"], "command": "default_backspace"},
+	{ "keys": ["ctrl+."], "command": "noop"},
 
 	// Weird stuff with alt+{left,right}
 	{ "keys": ["alt+left"], "command": "move", "args": {"by": "subwords", "forward": false} },

@@ -10,7 +10,7 @@
 	{ "keys": ["ctrl+alt+r"],        "command": "goto_definition" },
 	{ "keys": ["ctrl+i"],            "command": "reindent" },
 	{ "keys": ["shift+delete"],      "command": "run_macro_file",   "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
-	{ "keys": ["alt+shift+b"],        "command": "exec",             "args": {"kill": true} },
+	{ "keys": ["alt+shift+b"],       "command": "exec",             "args": {"kill": true} },
 
 	// Unify keybindings for multi-selection with the keyboard
 	{ "keys": ["alt+up"],            "command": "select_lines", "args": {"forward": false} },
@@ -83,13 +83,13 @@
 
 	// Rebind numpad operator keys to bookmark management
 	{ "keys": ["keypad_divide"],     "command": "sublime_bookmark", "args": { "type": "add" } },
-	{ "keys": ["shift+keypad_divide"],     "command": "sublime_bookmark", "args": { "type": "remove" } },
+	{ "keys": ["shift+keypad_divide"], "command": "sublime_bookmark", "args": { "type": "remove" } },
 	{ "keys": ["keypad_multiply"],   "command": "sublime_bookmark", "args": { "type": "toggle_line" } },
 	{ "keys": ["keypad_minus"],      "command": "sublime_bookmark", "args": { "type": "goto" } },
 
 	// Rebind Terminal keys (because it interferes with reopen)
-	{ "keys": ["ctrl+alt+t"],        "command": "open_terminal" },
-	{ "keys": ["ctrl+shift+t"],      "command": "reopen_last_file" },
+	{ "keys": ["ctrl+alt+t"],   "command": "open_terminal" },
+	{ "keys": ["ctrl+shift+t"], "command": "reopen_last_file" },
 
 	// PlainTasks
 	{ "keys": ["ctrl+d"], "command": "find_under_expand" }, // Don't do ctrl+d override
@@ -114,5 +114,5 @@
 	{ "keys": [ "alt+shift+t" ], "command": "tabr" },
 
 	{ "keys": [ "alt+shift+1" ], "command": "tabstash" },
-	{ "keys": [ "alt+shift+3" ], "command": "tabpopstash" },
+	{ "keys": [ "alt+shift+3" ], "command": "tabpopstash" }
 ]

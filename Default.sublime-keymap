@@ -12,6 +12,10 @@
 	{ "keys": ["shift+delete"],      "command": "run_macro_file",   "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
 	{ "keys": ["alt+shift+b"],        "command": "exec",             "args": {"kill": true} },
 
+	// Unify keybindings for multi-selection with the keyboard
+	{ "keys": ["alt+up"],            "command": "select_lines", "args": {"forward": false} },
+	{ "keys": ["alt+down"],          "command": "select_lines", "args": {"forward": true} },
+
 	// Rebind numpad keys to layout controls
 	{ "keys": ["alt+keypad2"],       "command": "travel_to_pane", "args": { "direction": "down" } },
 	{ "keys": ["alt+keypad4"],       "command": "travel_to_pane", "args": { "direction": "left" } },

@@ -1,0 +1,12 @@
+<snippet>', '/,/g
+    <content><![CDATA[define('${1:module_name}', [${2:'dependency_name'}], function (${2/'//g}) {
+	'use strict';
+
+	function $1 () {}
+
+	return $1;
+};]]></content>
+    <tabTrigger>define</tabTrigger>
+    <description>Require.js define</description>
+    <scope>source.js</scope>
+</snippet>

@@ -5,7 +5,7 @@
 	function $1 () {}
 
 	return $1;
-};]]></content>
+});]]></content>
     <tabTrigger>define</tabTrigger>
     <description>Require.js define</description>
     <scope>source.js</scope>

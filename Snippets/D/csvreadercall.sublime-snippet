@@ -2,17 +2,14 @@
     <content><![CDATA[import std.csv : csvReader;
 import std.file : readText, FileException;
 string content;
-try
-{
+try {
 	content = ${1:"test.csv"}.readText;
 	auto reader = csvReader!(string[string])(content, null);
-	foreach(record; reader)
-	{
+	foreach(record; reader) {
 		writeln("record: ", record);
 	}
 }
-catch(FileException e)
-{
+catch(FileException e) {
 	stderr.writeln(e.msg);
 	return 1;
 }

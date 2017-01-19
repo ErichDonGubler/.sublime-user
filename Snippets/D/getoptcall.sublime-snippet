@@ -1,15 +1,14 @@
 <snippet>
     <content><![CDATA[import std.getopt;
-try
-{
+try {
 	auto result = getopt(args
 				, "${1:a}|${2:arg}", "${3:This is some help!}", &${4:variable}
 				);
-	if(result.helpWanted)
+	if(result.helpWanted) {
 		defaultGetoptPrinter("${5:Usage:}", result.options);
+	}
 }
-catch(GetOptException e)
-{
+catch(GetOptException e) {
 	${6:stderr.writeln(e.msg);}
 	return 1;
 }

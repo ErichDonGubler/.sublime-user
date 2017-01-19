@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[import std.stdio : stderr;
 stderr.writeln("${1:Hello, world!}");]]></content>
-    <tabTrigger>insewtln</tabTrigger>
-    <description>insert stdout print</description>
+    <tabTrigger>iptewtln</tabTrigger>
+    <description>insert stderr print with import</description>
     <scope>source.d</scope>
 </snippet>

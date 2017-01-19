@@ -2,5 +2,5 @@
     <content><![CDATA[this.${1:x} = $1;]]></content>
     <tabTrigger>thisa</tabTrigger>
     <description>this assignment</description>
-    <scope>source.d, source.c++, source.java</scope>
+    <scope>source.d, source.c++, source.java,, source.js</scope>
 </snippet>

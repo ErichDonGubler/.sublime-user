@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[println!("${3:${1:var}}: {${2::?}}", $1);]]></content>
+    <content><![CDATA[println!("${3:${1:var}}: {${2::?}}", ${1/\\"/"/g);]]></content>
     <tabTrigger>ptlnvar</tabTrigger>
     <scope>source.rust</scope>
 </snippet>

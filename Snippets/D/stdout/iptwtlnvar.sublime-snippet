@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[import std.stdio : writeln;
+writeln("${2:${1:var}}: ", ${1/\\"/"/g});]]></content>
+    <tabTrigger>iptwtlnvar</tabTrigger>
+    <description>insert stdout var print with import</description>
+    <scope>source.d</scope>
+</snippet>

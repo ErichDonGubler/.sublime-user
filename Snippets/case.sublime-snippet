@@ -3,5 +3,5 @@
 	${2://stuff}
 	break;]]></content>
     <tabTrigger>case</tabTrigger>
-    <scope>source.c, source.objc, source.c++, source.d, source.java</scope>
+    <scope>source.c, source.objc, source.c++, source.d, source.java, source.js</scope>
 </snippet>

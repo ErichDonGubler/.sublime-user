@@ -5,5 +5,5 @@
 	break;
 }]]></content>
     <tabTrigger>caseb</tabTrigger>
-    <scope>source.c, source.objc, source.c++, source.d</scope>
+    <scope>source.c, source.objc, source.c++, source.d, source.js</scope>
 </snippet>

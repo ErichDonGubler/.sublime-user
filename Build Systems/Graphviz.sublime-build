@@ -1,0 +1,15 @@
+{
+    "selector": "source.dot",
+	"cmd": ["dot", "$file", "-Tpng", "-O"],
+
+	"variants": [
+		{
+			"name": "fdp",
+			"cmd": ["fdp", "$file", "-Tpng", "-O"],
+		},
+		{
+			"name": "neato",
+			"cmd": ["neato", "$file", "-Tpng", "-O"],
+		}
+	]
+}

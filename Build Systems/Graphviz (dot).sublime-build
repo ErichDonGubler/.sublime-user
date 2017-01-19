@@ -1,4 +1,0 @@
-{
-    "selector": "source.dot",
-	"cmd": ["dot", "$file", "-Tpng", "-O"],
-}

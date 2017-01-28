@@ -2,5 +2,5 @@
     <content><![CDATA[var ${1:variable} = ${2:null};]]></content>
     <tabTrigger>var</tabTrigger>
     <description>Initialize a variable</description>
-    <scope>source.js</scope>
+    <scope>source.cs, source.js</scope>
 </snippet>

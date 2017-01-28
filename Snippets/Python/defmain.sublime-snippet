@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[def main():
+	${1:print("Hello, world!")}
+
+if __name__ == "__main__":
+	main()
+
+]]></content>
+    <tabTrigger>defmain</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

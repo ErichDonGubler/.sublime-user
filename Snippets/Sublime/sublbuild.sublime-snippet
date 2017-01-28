@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[{
+	"name": "${1:Build System}",
+	"cmd": ["${2:ant}"],
+	"working_dir": "\$project_path/..",
+	"selector": "source.${4:java}",
+}]]></content>
+    <tabTrigger>sublbuild</tabTrigger>
+    <scope>source.json</scope>
+</snippet>

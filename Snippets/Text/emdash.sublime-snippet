@@ -1,5 +1,5 @@
 <snippet>
     <content><![CDATA[—]]></content>
     <tabTrigger>emdash</tabTrigger>
-    <scope>text</scope>c
+    <scope>text</scope>
 </snippet>

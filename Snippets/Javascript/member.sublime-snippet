@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[${1:member}: ${2:$1},]]></content>
+    <tabTrigger>member</tabTrigger>
+    <description>Initialize a member variable</description>
+    <scope>source.js</scope>
+</snippet>

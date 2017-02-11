@@ -1,11 +1,17 @@
 {
 	"working_dir": "${project_path:${file_path}}",
-    "selector": "source.shell",
-    "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
-    "shell": true,
-    "cmd": "gnome-terminal -e '$file'",
-    "windows":
-    {
-        "cmd": "bash -l \"$file\""
-    }
+	"selector": "source.shell",
+	"cmd": "\"$file\"",
+	"shell": true,
+	"windows": {
+		"cmd": "bash -l \"$file\""
+	},
+	"variants": [
+		{
+			"name": "External",
+			"linux": {
+				"cmd": "gnome-terminal -e '$file'"
+			}
+		}
+	]
 }

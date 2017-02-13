@@ -108,5 +108,9 @@
 	{ "keys": [ "alt+shift+t" ], "command": "tabr" },
 
 	{ "keys": [ "alt+shift+1" ], "command": "tabstash" },
-	{ "keys": [ "alt+shift+3" ], "command": "tabpopstash" }
+	{ "keys": [ "alt+shift+3" ], "command": "tabpopstash" },
+
+	// AppendSemiColon bindings
+	{ "keys": ["ctrl+;"], "command": "show_overlay", "args": {"overlay": "goto", "text": "#"} },
+	{ "keys": ["ctrl+shift+;"], "command": "append_semi_colon", "args": {"enter_new_line": "true"} }
 ]

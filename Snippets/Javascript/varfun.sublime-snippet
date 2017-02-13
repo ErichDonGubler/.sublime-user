@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[var ${1:function_name} = function(${2:first_argument}) {
+	${3:// body...}
+}${4:.bind(this)};]]></content>
+    <tabTrigger>varfun</tabTrigger>
+    <description>Define a local function</description>
+    <scope>source.js</scope>
+</snippet>

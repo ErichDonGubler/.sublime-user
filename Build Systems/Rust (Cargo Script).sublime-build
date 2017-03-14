@@ -1,5 +1,0 @@
-{
-	"selector": "source.rust",
-	"working_dir": "$file_path",
-	"shell_cmd": "cargo script \"$file\""
-}

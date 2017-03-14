@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[import std.stdio : stderr;
-stderr.writeln("${2:${1:var}}: ", ${1/\\"/"/g});]]></content>
+stderr.writeln("${2:$1}: ", ${1:var});]]></content>
     <tabTrigger>iptewtlnvar</tabTrigger>
     <description>insert stderr var print with import</description>
     <scope>source.d</scope>

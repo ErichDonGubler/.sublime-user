@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[std::${3:cerr} << "${2:${1:var}}: " << ${1/\\"/"/g} << std::endl;]]></content>
+    <content><![CDATA[std::${3:cerr} << "${2:$1}: " << ${1:var} << std::endl;]]></content>
     <tabTrigger>scerrvar</tabTrigger>
     <scope>source.c, source.objc, source.c++, source.objc++</scope>
     <description>cerr for var (uses "std::")</description>

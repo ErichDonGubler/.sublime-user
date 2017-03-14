@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[${3:cout} << "${2:${1:var}}: " << ${1/\\"/"/g} << endl;]]></content>
+    <content><![CDATA[${3:cout} << "${2:$1}: " << ${1:var} << endl;]]></content>
     <tabTrigger>coutvar</tabTrigger>
     <scope>source.c, source.objc, source.c++, source.objc++</scope>
     <description>cout for var (no "std::")</description>

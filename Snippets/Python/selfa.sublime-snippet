@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[self.${1:var} = ${1:var}]]></content>
+    <content><![CDATA[self.${1:mem} = ${2:$1}]]></content>
     <tabTrigger>selfa</tabTrigger>
     <scope>source.python</scope>
 </snippet>

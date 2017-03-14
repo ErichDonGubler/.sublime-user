@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[stderr.writeln("${2:${1:var}}: ", $1);]]></content>
+    <content><![CDATA[stderr.writeln("${2:$1}: ", ${1:var});]]></content>
     <tabTrigger>ewtlnvar</tabTrigger>
     <scope>source.d</scope>
 </snippet>

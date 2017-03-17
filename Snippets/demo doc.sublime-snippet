@@ -6,5 +6,5 @@
  * Date: $2
  */]]></content>
     <tabTrigger>docdemo</tabTrigger>
-    <scope>source.c, source.objc, source.c++, source.d</scope>
+    <scope>source.c, source.objc, source.c++, source.d, source.java</scope>
 </snippet>

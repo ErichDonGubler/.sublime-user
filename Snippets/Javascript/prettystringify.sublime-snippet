@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[JSON.stringify(${1:variable}, null, ${2:2})]]></content>
+    <tabTrigger>prettystringify</tabTrigger>
+    <description>Print message</description>
+    <scope>source.js</scope>
+</snippet>

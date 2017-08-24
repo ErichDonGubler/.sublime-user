@@ -5,5 +5,8 @@
 
 	// Swap the keybindings for paste and paste_and_indent (found [here](https://gist.github.com/twosixcode/1988097))
 	{ "keys": ["super+v"], "command": "paste_and_indent" },
-	{ "keys": ["super+shift+v"], "command": "paste" }
+	{ "keys": ["super+shift+v"], "command": "paste" },
+
+	// Fix binding overridden by MaxPane
+	{ "keys": ["super+shift+enter"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Add Line Before.sublime-macro"} }
 ]

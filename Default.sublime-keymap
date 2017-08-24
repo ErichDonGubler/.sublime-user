@@ -110,5 +110,9 @@
 	{ "keys": [ "alt+shift+1" ], "command": "tabstash" },
 	{ "keys": [ "alt+shift+3" ], "command": "tabpopstash" },
 
-	{ "keys": ["ctrl+shift+;"], "command": "run_macro_file", "args": {"file": "res://Packages/User/Macros/append_semicolon.sublime-macro"} }
+	{ "keys": ["ctrl+shift+;"], "command": "run_macro_file", "args": {"file": "res://Packages/User/Macros/append_semicolon.sublime-macro"} },
+
+	// MaxPane bindings
+	{ "keys": ["alt+shift+enter"], "command": "max_pane" },
+	{ "keys": ["ctrl+shift+enter"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Add Line Before.sublime-macro"} }
 ]

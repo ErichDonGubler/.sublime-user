@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[--- ${1:filename}
++++ ${2:${1:filename}}]]></content>
+	<tabTrigger>filename</tabTrigger>
+	<scope>source.diff</scope>
+</snippet>

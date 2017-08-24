@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[@@ -${1:l},${3:s} +${2:${1:l}},${4:s} @@]]></content>
+	<tabTrigger>hunk</tabTrigger>
+	<scope>source.diff</scope>
+</snippet>

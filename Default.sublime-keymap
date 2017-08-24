@@ -93,28 +93,28 @@
 	{ "keys": ["ctrl+alt+p"], "command": "prompt_select_workspace" },
 
 	// SublimeFileBrowser
-	{ "keys": ["ctrl+alt+f"], "command": "dired", "args": { "immediate": true, "single_pane": true, "other_group": "right", "project": true} },
+	{ "keys": ["ctrl+alt+f"], "command": "dired", "args": { "immediate": true, "single_pane": true, "other_group": "right", "project": true } },
 	{ "keys": ["ctrl+alt+shift+f"], "command": "dired_jump", "args": { "new_window": true } },
 
 	// Hungry backspace
 	{ "keys": ["backspace"], "command": "hungry_backspace" },
-	{ "keys": ["shift+backspace"], "command": "default_backspace"},
-	{ "keys": ["ctrl+."], "command": "noop"},
+	{ "keys": ["shift+backspace"], "command": "default_backspace" },
+	{ "keys": ["ctrl+."], "command": "noop" },
 
 	// Weird stuff with alt+{left,right}
-	{ "keys": ["alt+left"], "command": "move", "args": {"by": "subwords", "forward": false} },
-	{ "keys": ["alt+right"], "command": "move", "args": {"by": "subword_ends", "forward": true} },
+	{ "keys": ["alt+left"], "command": "move", "args": {"by": "subwords", "forward": false } },
+	{ "keys": ["alt+right"], "command": "move", "args": {"by": "subword_ends", "forward": true } },
 
 	{ "keys": [ "alt+shift+t" ], "command": "tabr" },
 
 	{ "keys": [ "alt+shift+1" ], "command": "tabstash" },
 	{ "keys": [ "alt+shift+3" ], "command": "tabpopstash" },
 
-	{ "keys": ["ctrl+shift+;"], "command": "run_macro_file", "args": {"file": "res://Packages/User/Macros/append_semicolon.sublime-macro"} },
+	{ "keys": ["ctrl+shift+;"], "command": "run_macro_file", "args": {"file": "res://Packages/User/Macros/append_semicolon.sublime-macro" } },
 
 	// MaxPane bindings
 	{ "keys": ["alt+shift+enter"], "command": "max_pane" },
-	{ "keys": ["ctrl+shift+enter"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Add Line Before.sublime-macro"} },
+	{ "keys": ["ctrl+shift+enter"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Add Line Before.sublime-macro" } },
 
 	// Sublime-surround!
 	{ "keys": ["alt+s"], "command": "surround_selection" },

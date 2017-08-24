@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[{ "keys": ["${2:key}"], "command": "${1:command}" }]]></content>
+    <tabTrigger>keybind</tabTrigger>
+    <scope>source.json</scope>
+</snippet>

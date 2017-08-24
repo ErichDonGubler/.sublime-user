@@ -114,5 +114,11 @@
 
 	// MaxPane bindings
 	{ "keys": ["alt+shift+enter"], "command": "max_pane" },
-	{ "keys": ["ctrl+shift+enter"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Add Line Before.sublime-macro"} }
+	{ "keys": ["ctrl+shift+enter"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Add Line Before.sublime-macro"} },
+
+	// Reform
+	{ "keys": ["ctrl+'"], "command": "select_scope_up" },
+	{ "keys": ["ctrl+shift+delete"], "command": "delete_block" },
+	{ "keys": ["alt+shift+up"], "command": "def_up" },
+	{ "keys": ["alt+shift+down"], "command": "def_down" }
 ]

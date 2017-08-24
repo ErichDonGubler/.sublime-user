@@ -116,6 +116,10 @@
 	{ "keys": ["alt+shift+enter"], "command": "max_pane" },
 	{ "keys": ["ctrl+shift+enter"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Add Line Before.sublime-macro"} },
 
+	// Sublime-surround!
+	{ "keys": ["alt+s"], "command": "surround_selection" },
+	{ "keys": ["alt+shift+s"], "command": "surround_change" },
+
 	// Reform
 	{ "keys": ["ctrl+'"], "command": "select_scope_up" },
 	{ "keys": ["ctrl+shift+delete"], "command": "delete_block" },

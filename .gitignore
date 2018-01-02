@@ -6,4 +6,6 @@ Color Highlighter/
 GitSavvy/
 TextPastryHistory.sublime-settings
 SublimeLinter/
+*.sublime-workspace.tags
+.tags
 *.sublime-workspace

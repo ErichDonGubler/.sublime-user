@@ -1,0 +1,11 @@
+{
+	"selector": "source.rust",
+	"cmd": ["cargo", "script", "$file"],
+	"variants":
+	[
+		{
+			"name": "Test",
+			"cmd": ["cargo", "script", "--test", "$file"]
+		}
+	]
+}
